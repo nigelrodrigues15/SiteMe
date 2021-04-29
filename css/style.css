@@ -1,0 +1,43 @@
+body {
+    background-color: whitesmoke;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    font-family: 'Arial Narrow Bold', sans-serif;
+    background: linear-gradient(#ff7e5f, #feb47b, #feb47b, #bb89fd, #bb89fd, #00B4DB);
+    justify-items: center;
+}
+
+#splash {
+    display: flex;
+    /* background: linear-gradient(#ff7e5f, #feb47b); */
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+#splash *{
+    color: white;
+    letter-spacing: 0.5rem;
+    font-weight: 100;
+}
+
+#personal {
+    /* background: linear-gradient(#feb47b, #bb89fd); */
+    display: inline-flex;
+    height: 50rem;
+    width: 75%;
+    max-width: 1500px;
+    border: 2px solid black;
+    border-radius: 0.7rem;
+    margin: 10%;
+}
+
+#experience {
+    /* background: linear-gradient(#bb89fd, #00B4DB); */
+    /* background: linear-gradient(#bb89fd, #FDB99B); */
+    /* background: linear-gradient(#A770EF, #FDB99B); */
+    /* background: linear-gradient(#e66465, #9198e5); */
+    /* background: linear-gradient(#e66465, #ee9ca7); */
+    height: 100vh;
+}
